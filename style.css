@@ -143,11 +143,11 @@ body {
   display: none
 }
 
-.task_edit-mode .task__input {
+.task_edit .task__input {
   display: inline-block;
   width: 224px
 }
 
-.task_edit-mode .task__label {
+.task_edit .task__label {
   display: none;
 }
