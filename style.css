@@ -27,10 +27,12 @@ body {
   width: 500px;
   margin: 0 auto 0;
 }
-.task, .task_new {
+.task,
+.task_new {
   display: flex;
 }
-.task__input, .task__label {
+.task__input,
+.task__label {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -42,7 +44,8 @@ body {
 .task{
   list-style: none;
 }
-.task__input,.button{
+.task__input,
+.button{
   outline: none;
 }
 .button {
@@ -68,7 +71,8 @@ body {
   margin: 0;
   text-transform: uppercase;
 }
-.task__input, .task__input_new {
+.task__input, 
+.task__input_new {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
